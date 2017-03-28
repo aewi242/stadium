@@ -4,15 +4,74 @@
 
 .para-begin{
   margin-top: 50px;
+  text-align: center;
 }
 
 .para-end{
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .bottom_space{
   height: 70px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://blogs-images.forbes.com/victorlipman/files/2014/04/8120519695_6ef90e9ea9_b.jpg");
+
+   /* Set a specific height */
+    min-height: 600px;
+
+   /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.jumbotron text-center{
+/*padding-bottom: 50px;*/
+/*background-image: url("../images/stadium.jpg");*/
+/*image height: auto;
+image width: 100%;
+background-color: white;
+text: white;
+}*/
+
+.src{
+  align:center;
+}
+
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: white;
+}
+
+.container paragraph{
   text-align: center;
+}
+
+
+
+.container-fluid{
+  padding-bottom: 10px;
+  height: 70px;
+  padding-top: 5px;
+}
+
+.bottom{
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.col-sm-4{
+  padding-bottom: 20px;
 }
