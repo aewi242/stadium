@@ -21,7 +21,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url("https://blogs-images.forbes.com/victorlipman/files/2014/04/8120519695_6ef90e9ea9_b.jpg");
+    background-image: url("../images/stadiumslice.jpg");
 
    /* Set a specific height */
     min-height: 600px;
