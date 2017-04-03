@@ -23,10 +23,10 @@ button {
   position:relative;
   cursor:pointer;
   border: none;
-  background: #109bce  ;
+  background: #134698  ;
   background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
   border-radius: 5px;
-  box-shadow: inset 0px 1px 0px #2ab7ec  , 0px 5px 0px 0px #07526e  , 0px 10px 5px #999;
+
   /*padding-bottom: 30px;*/
 
 }
@@ -79,6 +79,7 @@ button:active:before {
   background-color: white;
   padding-bottom: 20px;
   color: black;
+  text-align: center;
 
 }
 
@@ -118,7 +119,7 @@ button:active:before {
     background-image: url("../images/recruitingroom.png");
 
    /* Set a specific height */
-    min-height: 300px;
+    min-height: 450px;
 
    /* Create the parallax scrolling effect */
     background-attachment: fixed;
