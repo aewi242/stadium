@@ -89,10 +89,10 @@ button:active:before {
 
 }
 
-.para-begin{
+/*.para-begin{
   margin-top: 50px;
   text-align: center;
-}
+}*/
 
 .para-end{
     margin-bottom: 50px;
@@ -253,6 +253,15 @@ text: white;
 .map{
   text-align: center;
   padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  margin-top: 20px;
+  /*align: middle;*/
+}
+
+.blue{
+  
 }
 
 
