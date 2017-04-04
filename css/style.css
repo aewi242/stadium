@@ -74,6 +74,12 @@ button:active:before {
   align: center;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
 
 .whole{
   background-color: white;
@@ -129,7 +135,25 @@ button:active:before {
 
 }
 
-.fa {
+.parallax3 {
+    /* The image used */
+    /*background-image: url("../images/recruitingroom.png");*/
+
+   /* Set a specific height */
+    min-height: 450px;
+
+    background-color: #134698  ;
+
+   /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+  }
+
+
+
+.fa{
   padding: 20px;
   font-size: 30px;
   width: 30px;
@@ -138,29 +162,61 @@ button:active:before {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  /*vertical-align: middle;*/
+
+
 }
+
+/*.tb{
+  text-align: center;
+  align: center;
+  list-style: none;
+  display: inline;
+}
+
+.li{
+  display:inline-block;
+    /*display: inline;*/
+}*/
 
 .fa:hover {
     opacity: 0.7;
+    /*vertical-align: middle;*/
+    /*align: center;*/
 }
 
 .fa-facebook {
   background: #3B5998 ;
   color: white;
+  /*align: center;*/
 }
 
 .fa-twitter {
   background: #55ACEE ;
   color: white;
+  /*align: center;*/
 }
 .fa-instagram {
   background: #125688 ;
   color: white;
+  /*align: center;*/
 }
 
 .container-fluidsocial{
+  /*text-align: center;*/
+  padding-bottom: 30px;
+  /*background: transparent;*/
+  /*align: center;*/
+  background: rgba(0,0,0,0.0);
+  background-color: #134698 ;
+}
+
+.container-fluidsocial ul li {
+  display:inline-block;
   text-align: center;
-  padding-bottom: 15px;
+  align: center;
+  list-style: none;
+  display: inline;
 }
 
 /*.jumbotron text-center{
